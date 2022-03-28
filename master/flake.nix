@@ -11,6 +11,7 @@
   inputs.src-dropbox_filename_sanitizer-master.ref   = "refs/heads/master";
   inputs.src-dropbox_filename_sanitizer-master.owner = "Araq";
   inputs.src-dropbox_filename_sanitizer-master.repo  = "dropbox_filename_sanitizer";
+  inputs.src-dropbox_filename_sanitizer-master.dir   = "";
   inputs.src-dropbox_filename_sanitizer-master.type  = "github";
   
   inputs."nake".owner = "nim-nix-pkgs";
