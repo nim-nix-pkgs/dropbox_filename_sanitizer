@@ -11,7 +11,6 @@
   inputs.src-dropbox_filename_sanitizer-v0_2_1.ref   = "refs/tags/v0.2.1";
   inputs.src-dropbox_filename_sanitizer-v0_2_1.owner = "Araq";
   inputs.src-dropbox_filename_sanitizer-v0_2_1.repo  = "dropbox_filename_sanitizer";
-  inputs.src-dropbox_filename_sanitizer-v0_2_1.dir   = "";
   inputs.src-dropbox_filename_sanitizer-v0_2_1.type  = "github";
   
   inputs."nake".owner = "nim-nix-pkgs";

@@ -11,7 +11,6 @@
   inputs.src-dropbox_filename_sanitizer-master.ref   = "refs/heads/master";
   inputs.src-dropbox_filename_sanitizer-master.owner = "Araq";
   inputs.src-dropbox_filename_sanitizer-master.repo  = "dropbox_filename_sanitizer";
-  inputs.src-dropbox_filename_sanitizer-master.dir   = "";
   inputs.src-dropbox_filename_sanitizer-master.type  = "github";
   
   inputs."nake".owner = "nim-nix-pkgs";
@@ -29,6 +28,14 @@
   inputs."argument_parser".type  = "github";
   inputs."argument_parser".inputs.nixpkgs.follows = "nixpkgs";
   inputs."argument_parser".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
+  inputs."github.com/gradha/badger_bits".owner = "nim-nix-pkgs";
+  inputs."github.com/gradha/badger_bits".ref   = "master";
+  inputs."github.com/gradha/badger_bits".repo  = "github.com/gradha/badger_bits";
+  inputs."github.com/gradha/badger_bits".dir   = "";
+  inputs."github.com/gradha/badger_bits".type  = "github";
+  inputs."github.com/gradha/badger_bits".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github.com/gradha/badger_bits".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
