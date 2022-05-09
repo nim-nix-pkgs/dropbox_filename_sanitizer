@@ -7,7 +7,7 @@
   "license": "MIT",
   "web": "https://github.com/Araq/dropbox_filename_sanitizer/",
   "refs": [
-    "fatal: unable to access 'https://github.com/Araq/dropbox_filename_sanitizer/': HTTP/2 stream 1 was not closed cleanly before end of the underlying stream",
+    "fatal: unable to access 'https://github.com/Araq/dropbox_filename_sanitizer/': SSL connection timeout",
     ""
   ],
   "heads": []
